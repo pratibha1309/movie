@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="footer.css">
+    <script src="https://unpkg.co/gsap@3/dist/gsap.min.js"></script>
+    <script src="https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+    <link rel="stylesheet" href="main.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        ::placeholder{
+            color: #fff;
+        }
+         
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        } 
+        li {
+        display: inline;
+        
+        }
+
+        li a {
+        display: block;
+        padding: 0.5rem;
+        background-color: #dddddd;
+        }
+         
+        header{
+            width: 100%;
+            height: 4.688rem;
+            line-height: 4.688rem;
+            padding: 0rem 6.25rem;
+            position: fixed;
+            /* background-image: linear-gradient(#033747, #012733); */
+            background: rgba(0, 0,0,0.7);
+        }
+        /* header .logo{
+            font-size: 1.875rem;
+            font-weight: bold;
+            float: left;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 0.094rem;
+            cursor: pointer;
+        } */
+        #logo2 img{
+            width: 200px;
+            height: 60px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            margin-left: 0px;
+        }
+        header ul{
+            float: right;
+
+        }
+        header li{
+            display: inline-block;
+            list-style: none;
+        }
+        header li a{
+            font-size: 1.125rem;
+            text-transform: uppercase;
+            padding: 0rem 1.875rem;
+            color: white;
+            text-decoration: none;
+            background-color: transparent;
+
+        }
+        header li a:hover{
+            color: #ff8c69;
+            transition: all 0.4s ease 0s;
+            transform: scale(1.09);
+            /* border-bottom: 5px solid white; */
+            
+        }
+        header li a.active{
+            /* border-bottom: 5px solid white; */
+            color: #ff8c69;
+        }
+        header .search{
+            float: right;
+        }
+        /* header.search input:hover{
+            transform: scale(1.09);
+        } */
+        .search input{
+            width: 17.5rem;
+            height: 1.875rem;
+            border-radius: 0.313rem;
+            border: 10px white;
+            margin-right: 20px;
+            background: transparent;
+            border-left: 0.063rem solid #fff;
+            border-top: 0.063rem solid #fff;
+            border-right: 0.063rem solid #fff;
+            border-bottom: 0.063rem solid #fff;
+        }
+        /* header:hover{
+            transform: scale(1.09);
+        } */
+        @media(max-width: 767px){
+            .header{
+                width: 50%;
+                margin-bottom: 30px;
+            }
+        }
+        @media(max-width: 574px){
+            .header{
+                width: 100%;
+            }
+        }
+       
+
+
+    </style>
+</head>
+<body>
+    <div>
+    <header id="logo2">
+        <div class="logo">
+            
+        </div>
+        <div>
+        
+            <img src="color logo 2.png" alt="" id="logo2">
+            <ul>
+                <li><a href="login.html">Login</a></li>
+                <li><a href="login2.html">Sign up</a></li>
+            </ul>
+        <ul>
+            
+            <li><a class="active" href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#">Service</a></li>
+            <li><a href="#">contact</a></li>
+            <div class="search">
+                <input type="search" placeholder="Search....">
+            </div>
+            
+        </ul>
+       
+       
+    </header>
+</div>
+    <main>
+        <div class="first">
+            <h1><u>Thriller Series</u></h1>
+            <div class="container">
+                <div class="box">
+                    <img src="peaky.jpg" alt="">
+                    <h3>Peaky Blinder</h3>
+                    <p>Peaky Blinders is a crime drama centred on a family of mixed Irish Traveller and Romani origins based in Birmingham, England, starting in 1919, several months after the end of the First World War. It centres on the Peaky Blinders street gang and their ambitious, cunning crime boss Tommy Shelby. The gang comes to the attention of Major Chester Campbell, a detective chief inspector in the Royal Irish Constabulary sent over by Winston Churchill from Belfast, where he had been sent to clean up the city of the Irish Republican Army flying columns, the Communist Party of Great Britain, street gangs, and common criminals. Winston Churchill (played by Andy Nyman in series 1 and Richard McCabe in series 2) charges him with suppressing disorder and uprising in Birmingham and recovering a stolen cache of arms and ammunition meant to be shipped to Libya.</p>
+                    <a href="readmore1.html" target="_blank" class="btn">read more</a>
+
+                </div>
+                <div class="box">
+                    <img src="dark.jpg" alt="">
+                    <h3>Dark</h3>
+                    <p>The series explores the existential implications of time and its effect on human nature and life. It features an ensemble cast.
+
+                        Dark debuted on 1 December 2017 on Netflix; it is the service's first German-language original series. The second season was released on 21 June 2019, while the third and final season was released on 27 June 2020.[
+                        
+                        Dark was praised for its cast, direction, writing, tone, visuals, musical score, and the ambition and complexity of its narrative. In 2021, the BBC ranked the series as the 58th greatest TV series of the 21st century. Dark debuted on 1 December 2017 on Netflix; it is the service's first German-language original series. The second season was released on 21 June 2019, while the third and final season was released on 27 June 2020.[
+                    </p>
+                    <a href="readmore2.html" target="_blank" class="btn">read more</a>
+
+                </div>
+                <div class="box">
+                    <img src="stranger.jpg" alt="">
+                    <h3>Stranger Things</h3>
+                    <p>Stranger Things is set in the fictional rural town of Hawkins, Indiana, in the 1980s. The nearby Hawkins National Laboratory ostensibly performs scientific research for the United States Department of Energy but secretly experiments with the paranormal and supernatural, sometimes with human test subjects. They have inadvertently created a portal to an alternate dimension they refer to as the Upside Down, whose presence begins to affect the residents of Hawkins in calamitous ways.The first season begins in November 1983. Will Byers is abducted by a creature from the Upside Down. His mother, Joyce; the town's police chief, Jim Hopper; and a group of volunteers search for him. A young psychokinetic girl named Eleven escapes from the laboratory and is found by friends of Will. Eleven befriends and assists them in their efforts to find Will.</p>
+                    <a href="readmore3.html" target="_blank" class="btn">read more</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="second">
+            <h1><u>Comedy</u></h1>
+            <div class="container">
+                <div class="box">
+                    <img src="friends.jpg" alt="">
+                    <h3>Friends</h3>
+                    <p>The first season introduces the six main characters who live in New York City: Rachel Green, a waitress; professional chef Monica Geller; her paleontologist brother, Ross Geller; free-spirited masseuse Phoebe Buffay; struggling actor Joey Tribbiani, and Ross's college friend, Chandler Bing, whose precise occupation at a corporation is unknown. Rachel arrives at Central Perk, wearing her wedding dress, after leaving her fiancé, Barry, an orthodontist, at the altar. She moves into her high school friend Monica's apartment, and gets a waitress job at Central Perk.
+
+                        Ross, who has had a crush on Rachel since high school, often attempts to declare his feelings for her. However many obstacles stand in his way, including his insecurities.</p>
+                    <a href="readmore4.html" target="_blank" class="btn">read more</a>
+
+                </div>
+                <div class="box">
+                    <img src="suits.jpg" alt="">
+                    <h3>Suits</h3>
+                    <p>Mike Ross, a university expellee with a photographic memory, makes money by taking the LSAT and the bar examination for others. He does this to pay for his grandmother's living expenses, as she was his primary caregiver after both his parents died in a car accident when he was 11. In the pilot, Mike agrees to deliver a briefcase of cannabis for his best friend Trevor, a drug dealer, for a large payout. Mike astutely avoids being arrested in a sting, only to stumble into a job interview with Harvey Specter, a supremely self-assured partner at the prestigious Pearson Hardman, a law firm specializing in corporate law and one that only hires Harvard graduates. Harvey is impressed by Mike's tenacity and knowledge of the law and hires him as an associate, despite Mike's not having a license to practice law.[</p>
+                    <a href="readmore5.html" target="_blank" class="btn">read more</a>
+
+                </div>
+                <div class="box">
+                    <img src="neverhaveiever.jpg" alt="">
+                    <h3>Never Have I Ever</h3>
+                    <p>he story centers around Devi Vishwakumar, a 15-year-old (at the start of the series) Indian-American Tamil girl from Sherman Oaks, Los Angeles. After her father, Mohan, dies suddenly, Devi loses sensation in her legs due to psychological trauma, making her unable to walk for three months. One day, in an attempt to see her crush Paxton Hall-Yoshida, she miraculously recovers and stands on her legs. After having a socially horrible freshman year, she wishes to change her social status, but friends, family, and feelings do not make it easy for her. Meanwhile, Devi's friend Eleanor deals with learning her absentee mother has been back in town for months with no contact, while Devi's other friend Fabiola struggles to come out as lesbian. Devi's live-in cousin Kamala.</p>
+                    <a href="readmore6.html" target="_blank" class="btn">read more</a>
+
+                </div>
+            </div>
+        </div>
+        <div class="third">
+            <h1><u>Sci-Fi Series</u></h1>
+            <div class="container">
+                <div class="box">
+                    <img src="raising.png" alt="">
+                    <h3>Raising Dion</h3>
+                    <p>Raising Dion follows the story of a woman named Nicole who raises her son Dion after the death of her husband Mark. The normal dramas of raising a son as a single mom are amplified when Dion starts to manifest several superhero-like abilities. Nicole must now keep her son's gifts secret with the help of Mark's best friend Pat, and protect Dion from people out to exploit him while figuring out the origin of his abilities.he rain people, including Dion’s father Mark, appear mysteriously to Dion and his mother, warning them about the danger which is approaching. The souls of people who have been consumed by storms, they appear like diaphanous, mist-like spectres.</p>
+                    <a href="readmore7.html" target="_blank" class="btn">read more</a>
+
+                </div>
+                <div class="box">
+                    <img src="tvd.jpg" alt="">
+                    <h3>The Vampire Diaries</h3>
+                    <p>The series focuses on the fictional town of Mystic Falls, Virginia, that is charged with supernatural history. It follows Elena Gilbert portrayed by Nina Dobrev as she begins to get over her parents' death, when two vampires pull her into a world she didn't know before, Stefan and Damon Salvatore, portrayed by Paul Wesley and Ian Somerhalder, respectively. Kayla Ewell portrayed Vicki Donovan for the first seven episodes until her character was killed off. Matt Davis was later cast as a history teacher in a recurring role to fill the void. He was later upgraded to series regular status.The season concluded on May 13, 2010, and consisted of 22 episodes</p>
+                    <a href="readmore8.html" target="_blank" class="btn">read more</a>
+
+                </div>
+                <div class="box">
+                    <img src="umbrella acadmy.jpg" alt="">
+                    <h3>Umbrella Academy</h3>
+                    <p>The Umbrella Academy is set in a universe where 43 women around the world gave birth simultaneously at noon on October 1, 1989, although none had shown any sign of pregnancy until labor began. Seven of the children are adopted by eccentric billionaire Sir Reginald Hargreeves and turned into a superhero team that he calls "The Umbrella Academy." Hargreeves gives the children numbers rather than names, but their robot-mother, Grace, later names six of them: Luther, Diego, Allison, Klaus, Ben, and Vanya.[1] Reginald puts six of the children to work fighting crime but keeps Vanya apart from her siblings' activities, claiming she demonstrates no powers of her own.</p>
+                    <a href="readmore9.html" target="_blank" class="btn">read more</a>
+
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+         <div class="row">
+           <div class="footer-col">
+             <h4>Company</h4>
+             <ul>
+               <li><a href="#">About us</a></li>
+               <li><a href="#">Our services</a></li>
+               <li><a href="#">Privacy Policy</a></li>
+               <li><a href="#">FAQ's</a></li>
+              
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>Contact Us</h4>
+             <ul>
+               <li><a href="#">Mail us</a></li>
+               <li><a href="#">Call us</a></li>
+               <li><a href="#">Live chat</a></li>
+               <li><a href="#">Whatsapp chat</a></li>
+
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>Quick Link</h4>
+             <ul>
+               <li><a href="#">Combo Packages</a></li>
+               <li><a href="#">Style Guide</a></li>
+               <li><a href="#">Career</a></li>
+               <li><a href="#">Help Text</a></li>
+             </ul>
+           </div>
+           <div class="footer-col">
+             <h4>follow us</h4>
+             <div class="social-links">
+               <a href="#"><i class="fab fa-facebook-f"></i></a>
+               <a href="#"><i class="fab fa-twitter"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-linkedin-in"></i></a>
+             </div>
+           </div>
+         </div>
+        </div>
+     </footer>
+</body>
+</html>

@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="about.css">
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        /* body{
+            background-image: url(about.jpg);
+            background-attachment: fixed;
+            background-size: cover;
+            background-position: center;
+        } */
+        ::placeholder{
+            color: #fff;
+        }
+         
+        ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        }
+        li {
+        display: inline;
+        
+        }
+
+        li a {
+        display: block;
+        padding: 8px;
+        background-color: #dddddd;
+        }
+         
+        header{
+            width: 100%;
+            height: 75px;
+            line-height: 75px;
+            padding: 0px 100px;
+            position: fixed;
+            /* background-image: linear-gradient(#033747, #012733); */
+            background: rgba(0, 0,0,0.7);
+        }
+        /* header .logo{
+            font-size: 30px;
+            font-weight: bold;
+            float: left;
+            color: white;
+            text-transform: uppercase;
+            letter-spacing: 1.5px;
+            cursor: pointer;
+        } */
+        #logo2 img{
+            width: 200px;
+            height: 60px;
+            margin-top: 8px;
+            margin-bottom: 8px;
+            margin-left: none;
+        }
+        header ul{
+            float: right;
+
+        }
+        header li{
+            display: inline-block;
+            list-style: none;
+        }
+        header li a{
+            font-size: 18px;
+            text-transform: uppercase;
+            padding: 0px 30px;
+            color: white;
+            text-decoration: none;
+            background-color: transparent;
+
+        }
+        header li a:hover{
+            color: #ff8c69;
+            transition: all 0.4s ease 0s;
+            transform: scale(1.09);
+            
+        }
+        header li a.active{
+            /* border-bottom: 5px solid white; */
+            color: #ff8c69;
+        }
+        
+        header .search{
+            float: right;
+        }
+        /* header.search input:hover{
+            transform: scale(1.09);
+        } */
+        .search input{
+            width: 280px;
+            height: 30px;
+            border-radius: 5px;
+            border: 10px white;
+            margin-right: 20px;
+            background: transparent;
+            border-left: 1px solid #fff;
+            border-top: 1px solid #fff;
+            border-right: 1px solid #fff;
+            border-bottom: 1px solid #fff;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <header id="logo2">
+            <div class="logo">
+                
+            </div>
+            <div>
+                <img src="color logo 2.png" alt="" id="logo2">
+            <ul>
+                
+                <li><a  href="index.html">Home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="#">Service</a></li>
+                <li><a href="#">contact</a></li>
+                <div class="search">
+                    <input type="search" placeholder="Search....">
+                </div>
+            </ul>
+           
+        </header>
+    </div>
+    <main>
+        <div class="wrapper">
+        
+            <div class="container">
+                <div class="box">
+                    <img src="anime.jpg" alt="">
+                    <p>"Embark on an exhilarating journey into captivating worlds, rich storytelling, and vibrant characters – explore the boundless wonders of anime today!"</p>
+                    <a href="anime.html" class="btn">Anime</a>
+                </div>
+                <div class="box">
+                    <img src="dramas.jpg" alt="">
+                    <p>"Dive into the intricate tapestry of human emotion, where every scene unfolds with riveting tension and heartfelt resonance – discover the captivating world of dramas awaits you!"</p>
+                    <a href="dramas.html" class="btn">Dramas</a>
+                </div>
+                <div class="box">
+                    <img src="thriller.jpg" alt="">
+                    <p>"Experience the adrenaline-fueled excitement where every twist and turn keeps you on the edge of your seat – immerse yourself in the gripping intensity of thrillers today!"</p>
+                    <a href="thriller.html" class="btn">Thriller</a>
+                </div>
+                <div class="box">
+                    <img src="independent.jpg" alt="">
+                    <p>"Discover the untold stories and uncharted territories of cinema – embrace the artistry and authenticity of independent movies, where every frame captures the raw essence of human experience."</p>
+                    <a href="independent.html" class="btn">Independent</a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="box">
+                    <img src="children.jpeg" alt="">
+                    <p>"Experience the joy of imagination and adventure with heartwarming children and family movies, where storytelling magic awaits!"</p>
+                    <a href="children.html" class="btn">Children & Family</a>
+                </div>
+                <div class="box">
+                    <img src="tv.webp" alt="">
+                    <p>"Dive into captivating worlds, where each episode unfolds a new adventure – immerse yourself in the endless excitement of TV shows, where every moment is an unforgettable journey."</p>
+                    <a href="tv.html" class="btn">TV Shows</a>
+                </div>
+                <div class="box">
+                    <img src="romantic.jpg" alt="">
+                    <p>"Embrace the enchanting world of romance, where every glance sparks magic and every moment unfolds a captivating journey of the heart."</p>
+                    <a href="romantic.html" class="btn">Romantic</a>
+                </div>
+                <div class="box">
+                    <img src="comedy.jpg" alt="">
+                    <p>"Light up your day with laughter and joy, as you embark on a hilarious journey through the world of comedy, where every moment is a guaranteed smile!"</p>
+                    <a href="comedy.html" class="btn">Comedy</a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="box">
+                    <img src="scific.jpg" alt="">
+                    <p>"Embark on an extraordinary journey through the boundless realms of science fiction and fantasy, where captivating adventures and wondrous discoveries await at every turn."</p>
+                    <a href="sci-fic.html" class="btn">Sci-Fic & Fantasy</a>
+                </div>
+                <div class="box">
+                    <img src="award.jpg" alt="">
+                    <p>"Step into the world of award-winning cinema, where every frame is a masterpiece and each moment resonates with unmatched brilliance, inviting you to witness the pinnacle of storytelling excellence."</p>
+                    <a href="award.html" class="btn">Award Winning</a>
+                </div>
+                <div class="box">
+                    <img src="action.jpeg" alt="">
+                    <p>"Embark on adrenaline-pumping escapades and thrilling journeys into the heart of action and adventure - where every scene ignites excitement and every moment beckons for bold exploration!"</p>
+                    <a href="action.html" class="btn">Action & Adventure</a>
+                </div>
+                <div class="box">
+                    <img src="hollywood.jpg" alt="">
+                    <p>"Dive into the glitz and glamour of Hollywood's finest creations, where every film promises a captivating journey through the magic of storytelling and cinematic excellence."</p>
+                    <a href="hollywood.html" class="btn">HollyWood Movies</a>
+                </div>
+            </div>
+            <div class="container">
+                <div class="box">
+                    <img src="international.jpg" alt="">
+                    <p>"Explore the rich tapestry of global cinema, where diverse cultures, languages, and perspectives intertwine to create unforgettable stories that transcend borders and captivate the imagination."</p>
+                    <a href="international.html" class="btn">International Movies</a>
+                </div>
+                <div class="box">
+                    <img src="indian.jpg" alt="">
+                    <p>"Embark on a vibrant journey through the colorful tapestry of Indian cinema, where music, emotion, and storytelling collide to create unforgettable tales that resonate with the soul."</p>
+                    <a href="indian.html" class="btn">Indian</a>
+                </div>
+                <div class="box">
+                    <img src="horror.jpg" alt="">
+                    <p>"Prepare for a spine-tingling thrill ride into the dark and mysterious world of horror movies, where every shadow hides secrets and every moment is filled with chilling suspense."</p>
+                    <a href="horror.html" class="btn">Horror</a>
+                </div>
+                <div class="box">
+                    <img src="documentary.jpg" alt="">
+                    <p>
+                        "Uncover the untold stories and explore the depths of reality through the lens of captivating documentaries, where every frame holds a piece of truth waiting to be discovered."
+                    </p>
+                    <a href="documentary.html" class="btn">Documentary</a>
+                </div>
+            </div>
+        </div>   
+        
+    </main>
+</body>
+</html>
